@@ -1,0 +1,173 @@
+/*Typography*/
+body { font-size: 11px; color: #555; font-family: Arial, Helvetica, sans-serif; }
+/*header*/
+#header img#logo {float: left;margin-left: 16px;margin-top: 22px;}
+.call {
+	text-align: right;
+    margin:4px;
+    position: relative !important;
+	bottom: 30px !important;
+	right: 10px !important;
+	font-size: 18px;
+	color: green !important;
+	font-weight: bold !important;
+}
+/*navbar*/
+.caret-up {
+    width: 0; 
+    height: 0; 
+    border-left: 4px solid rgba(0, 0, 0, 0);5
+    border-right: 4px solid rgba(0, 0, 0, 0);
+    border-bottom: 4px solid;
+    
+    display: inline-block;
+    margin-left: 4px;
+    vertical-align: middle;
+}
+/*custom*/
+.breadcrumb {
+	background-color:#e0e5ca !important;
+	text-align: right !important; 
+	/*float: right !important;*/
+	padding-right: 22px !important;
+	padding-bottom: 10px !important;
+	/*position: relative !important;
+	bottom: 60px !important;*/
+}
+.breadcrumb > li > a {
+	color: green !important;
+}
+.breadcrumb > li > a:hover {
+	color: black !important;
+}
+#typo {float: none;padding-left: 20px; letter-spacing: 2px;}
+#typo h4 a {font-family: Georgia, "Times New Roman", Times, serif;font-size: 16px;color: #447e36;}
+ 
+ .form-control {
+ 	width:20% !important;
+ 	float: right !important;
+ 	text-align: center !important;
+ 	margin-left: 1% !important;
+ }
+.btn-default:hover, .btn-default:focus {
+	color: white !important;
+	background-color: green !important;
+}
+/*news*/
+.well-sm {
+	background-color: #e0e5ca !important;
+	border: 2px outset white !important;
+}
+#news p {
+	font-size: 12px;
+	letter-spacing: 2px;
+}
+#news a, #news2 a {
+	color: green !important;
+}
+#news .btn-default {
+	background-color: green !important;
+	color: white !important;
+}
+#news2 .well {
+	text-align: center !important;
+	background-color: #e0e5ca !important; 
+}
+#news2 p {
+	text-align: center;
+	font-size: 12px;
+	font-weight: bold;
+	letter-spacing: 1px;
+
+}
+#news2 .btn-default {
+	text-align: center !important;
+	border-radius: 0px !important;
+	background-color: green !important;
+	color: white !important;
+	margin-bottom: 10px !important;
+}
+#new2 .btn-default:hover, #news2 .btn-default:active {
+	background-color: green !important;
+}
+.tab-content, .tab-content a, .tab-content p a{
+	text-align: center !important;
+	color: green !important;
+}
+.tab-content h5 {
+	color: green !important;
+	font-size: 15px !important;
+	letter-spacing: 1px !important;
+}
+.nav-tabs > li {
+    float:none;
+    color: green !important;
+    font-size: 16px !important;
+    font-weight: bold !important;
+    text-decoration: none !important;
+    display:inline-block;
+    *display:inline; /* ie7 fix */
+     zoom:1; /* hasLayout ie7 trigger */
+}
+.nav-tabs > li > a:hover,
+.nav-tabs > li > a:active,
+.nav-tabs > li > a:focus {
+	float: none;
+	color: green !important;	
+}
+
+ul
+{
+    list-style-type: none;
+}
+
+.nav-tabs {
+    text-align:center;
+    text-decoration: none !important;
+}
+#url {
+	float: none !important;
+	margin-bottom: 2px !important;
+	width: 180px !important;
+	text-align: center !important;
+}
+.form-group select {
+	/*text-align: center !important;
+	margin-left: 20px !important;*/
+}
+.para {
+	font-size: 15px;
+	letter-spacing: 1px;
+}
+.img-thumbnail {
+	margin: 0px !important;
+}
+.caption {
+	text-align: center !important;
+}
+.col-sm-12, .col-md-6, .col-lg-6 {
+	text-align: center !important;
+}
+#department {
+	text-align: center !important;
+}
+#foot h6, #foot li p {
+	text-align: center !important;
+}
+#foot h6 {
+	letter-spacing: 1px !important;
+	font-size: 15px;
+}
+.nav-pills > li > a {
+	color: green !important;
+}
+.nav-pills > li > a:hover {
+	background-color: green !important;
+}
+.nav-pills li a {
+	color: green !important;
+	border-radius: 0px !important;
+}
+.nav-pills li a:hover {
+	color: black !important;
+}
